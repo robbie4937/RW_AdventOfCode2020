@@ -9,6 +9,7 @@ with open("Slope_Main.txt") as input_file:
     y_limit=len(tree_lines)
     #print(y_limit)
 
+"""
 for slope in slopes:
     trees_on_route = 0
     X_pos = 0 
@@ -26,3 +27,5 @@ print(trees_encountered)
 from functools import reduce
 Total = reduce(lambda x,y: x*y,trees_encountered)
 print(Total)
+
+"""
