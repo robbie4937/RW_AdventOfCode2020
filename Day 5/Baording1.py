@@ -5,7 +5,7 @@ RWilliams written 05/12/2020
 with open("BoardingLocation.txt") as f:
      PassData=[]
      PassData = [x.strip() for x in f] 
-     #print(PassData)
+    # print(PassData)
 
 
 def CalculateValue(c,lower, upper):	
@@ -51,7 +51,7 @@ def Seat_Identify (id_list):
 
 
 Result = SeatNumbers(PassData)
-print ("Identifed Seats",Result)
+#print ("Identifed Seats",Result)
 
 Check = Seat_Identify(Result)
-print("My Seat",Check)
+#print("My Seat",Check)
