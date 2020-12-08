@@ -30,3 +30,5 @@ def find(bag_name,searched_bag):
 
 print(sum([any([find(b[1], 'shiny gold') for b in contents[rule]]) for rule in contents]))
 
+
+

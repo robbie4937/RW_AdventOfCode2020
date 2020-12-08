@@ -2,13 +2,13 @@
 
 import re
 
-rules=[]
-
-with open("bagception.txt") as f:
+with open("sean_bagception.txt") as f:
     rules=[line.strip()for line in f]
 
-#print(rules)
+print(rules)
 
+
+"""
 contents = {}
 for rule in rules:
     bag,contained_bags=rule.split("contain")
@@ -37,3 +37,5 @@ def bag_size(bag_name):
 
 # part2
 print(sum([b[0] + b[0] * bag_size(b[1]) for b in contents['shiny gold']]))
+
+"""
