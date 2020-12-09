@@ -3,8 +3,6 @@ data = []
 with open("Boot.txt") as f:
     data=[line.strip()for line in f]
 
-
-
 def get_acc_endOfFile():
     acc = 0
     line = 0

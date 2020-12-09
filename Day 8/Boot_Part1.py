@@ -9,8 +9,6 @@ def get_acc():
     line = 0
     instructions = []
 
-
-
     while line not in instructions:
         instructions.append(line)
 
@@ -33,3 +31,5 @@ def get_acc():
 
 acc = get_acc()
 print (acc)
+
+

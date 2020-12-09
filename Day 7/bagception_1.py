@@ -7,7 +7,7 @@ rules=[]
 with open("bagception.txt") as f:
     rules=[line.strip()for line in f]
 
-#print(rules)
+#rint(rules)
 
 contents = {}
 for rule in rules:
